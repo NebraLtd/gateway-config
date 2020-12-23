@@ -71,7 +71,7 @@ ip_address() ->
     end.
 
 serial_number() ->
-    mac_address(wifi).
+    mac_address(eth).
 
 wifi_services() ->
     %% Fetch name and strength of currently visible wifi services
