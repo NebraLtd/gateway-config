@@ -23,4 +23,4 @@ include_tx_power(_) ->
 
 local_name(_) ->
     Serial = gateway_config:serial_number(),
-    "Nebra Hotspot " ++ lists:nthtail(length(Serial) - 4, Serial).
+    "Helium Hotspot " ++ lists:nthtail(length(Serial) - 4, Serial).
